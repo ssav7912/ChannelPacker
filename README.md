@@ -45,4 +45,6 @@ Create an AORM map for a dielectric PBR material that only specifies an roughnes
 
 
  ### Installation
+ Requires PIL. Install with `pip install pillow`
+ 
  Copy to desired directory. Run with `python pack.py`. Profit.
