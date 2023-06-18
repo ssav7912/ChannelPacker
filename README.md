@@ -10,7 +10,7 @@ Invoke from the command line:
 
  `python pack.py [-h] [-r r.png or 0-255] [-g g.png or 0-255] [-b b.png or 0-255] [-a a.png or 0-255] output`
  
-Either a path to an image (of any format PIL supports) or an integer in the range 0-255 may be provided to each switch. If a switch is ommitted, it will use the default described below.
+Either a path to an image (of any format PIL supports) or an integer in the range 0-255 may be provided to each switch. If a switch is omitted, it will use the default described below.
 Appending a ':' followed by any of 'R,G,B,A' to a path string will pull that channel out of the specified image. 
 If all switches are integers it will produce an 8x8 output image. 
 
