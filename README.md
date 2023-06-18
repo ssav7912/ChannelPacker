@@ -39,7 +39,7 @@ Create AORM from separate maps:
 
 `python pack.py -r ao.png -g roughness.png -b metallic.png -a 255 AORM.png`
 
-Create an AORM map for a dielectric PBR material that only specifies an roughness map:
+Create an AORM map for a dielectric PBR material that only specifies a roughness map:
 
 `python pack.py -r 255 -g roughness.png -b 0 -a 255 AORM.png`
 
